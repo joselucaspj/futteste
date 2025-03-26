@@ -1,1 +1,12 @@
-
+services:
+  - type: web
+    name: football-predictor-pro
+    runtime: python
+    buildCommand: |
+      pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      - key: MODEL_GOLS_URL
+        value: "https://drive.google.com/uc?id=SEU_ID_MODELO_GOLS"
+      - key: MODEL_WINNER_URL
+        value: "https://drive.google.com/uc?id=SEU_ID_MODELO_WINNER"
