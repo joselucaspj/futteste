@@ -22,79 +22,47 @@ def load_match_data():
     urls = {"Inglaterra - Premiere League": [
         "https://www.football-data.co.uk/mmz4281/2425/E0.csv",
         "https://www.football-data.co.uk/mmz4281/2324/E0.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/E0.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/E0.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/E0.csv"
+
     ],
     "Escócia - Premiere League": [
         "https://www.football-data.co.uk/mmz4281/2425/SC0.csv",
         "https://www.football-data.co.uk/mmz4281/2324/SC0.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/SC0.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/SC0.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/SC0.csv"
     ],
     "Alemanha - Bundesliga 1": [
         "https://www.football-data.co.uk/mmz4281/2425/D1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/D1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/D1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/D1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/D1.csv"
     ],
     "Itália - Serie A": [
         "https://www.football-data.co.uk/mmz4281/2425/I1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/I1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/I1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/I1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/I1.csv"
     ],
     "Espanha - La Liga": [
         "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/SP1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/SP1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/SP1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/SP1.csv"
     ],
     "França - Primeira divisão": [
         "https://www.football-data.co.uk/mmz4281/2425/F1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/F1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/F1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/F1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/F1.csv"
     ],
     "Holanda": [
         "https://www.football-data.co.uk/mmz4281/2425/N1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/N1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/N1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/N1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/N1.csv"
     ],
     "Bélgica": [
         "https://www.football-data.co.uk/mmz4281/2425/B1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/B1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/B1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/B1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/B1.csv"
     ],
     "Portugal - Liga 1": [
         "https://www.football-data.co.uk/mmz4281/2425/P1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/P1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/P1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/P1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/P1.csv"
     ],
     "Turquia - Liga 1": [
         "https://www.football-data.co.uk/mmz4281/2425/T1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/T1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/T1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/T1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/T1.csv"
     ],
     "Grecia": [
         "https://www.football-data.co.uk/mmz4281/2425/G1.csv",
         "https://www.football-data.co.uk/mmz4281/2324/G1.csv",
-        "https://www.football-data.co.uk/mmz4281/2223/G1.csv",
-        "https://www.football-data.co.uk/mmz4281/2122/G1.csv",
-        "https://www.football-data.co.uk/mmz4281/2021/G1.csv"
     ],
     "Argentina": ["https://www.football-data.co.uk/new/ARG.csv"],
     "Austria": ["https://www.football-data.co.uk/new/AUT.csv"],
