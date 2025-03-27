@@ -5,7 +5,15 @@ import joblib
 from utils.data_loader import load_match_data
 from utils.preprocessor import prepare_data
 from utils.model_predictor import predict_all_matches
+import panel as pn
+pn.extension(comms='ipywidgets')  # Ou 'ipywidgets' se estiver no Jupyter
 
+# Seu componente Panel deve ter .servable()
+view = pn.Column("Seu conteúdo Panel aqui").servable()
+
+# Integração com Streamlit
+st.title("Seu App Streamlit")
+st.write(view)
 # Configurações da página
 st.set_page_config(layout="wide", page_title="Football Predictor Pro")
 
@@ -13,8 +21,8 @@ st.set_page_config(layout="wide", page_title="Football Predictor Pro")
 def load_models():
     """Carrega modelos com cache do Google Drive"""
     model_files = {
-        'modelo_predict_gols.pkl': os.environ.get('MODEL_GOLS_URL'),
-        'modelo_predict_winner.pkl': os.environ.get('MODEL_WINNER_URL')
+        'modelo_predict_gols.pkl': os.environ.get('https://drive.google.com/uc?id=1XpKUMdD05ZZ70gLDsFaC2wzATm_FCdz7'),
+        'modelo_predict_winner.pkl': os.environ.get('https://drive.google.com/uc?id=1b_uaLyGSBjxN8oLJMY0-rlXVbMlFu42R')
     }
     
     for filename, url in model_files.items():
