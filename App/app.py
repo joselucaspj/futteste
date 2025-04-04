@@ -22,7 +22,9 @@ def load_models():
     """Carrega modelos com cache do Google Drive"""
     model_files = {
         'modelo_predict_gols.pkl': os.environ.get('https://drive.google.com/uc?id=1XpKUMdD05ZZ70gLDsFaC2wzATm_FCdz7'),
-        'modelo_predict_winner.pkl': os.environ.get('https://drive.google.com/uc?id=1b_uaLyGSBjxN8oLJMY0-rlXVbMlFu42R')
+        'modelo_predict_winner.pkl': os.environ.get('https://drive.google.com/uc?id=1b_uaLyGSBjxN8oLJMY0-rlXVbMlFu42R'),
+        'modelo_winner_home.pkl': os.environ.get('https://drive.google.com/uc?id=19INu-irZFD3u0NfTnisHQPDkjxlWlTdo'),
+        'modelo_winner_away.pkl': os.environ.get('https://drive.google.com/uc?id=1miAciy7g46RzrQ3lu5PTMJD5AJdEzD6P')
     }
     
     for filename, url in model_files.items():
